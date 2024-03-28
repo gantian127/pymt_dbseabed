@@ -25,7 +25,7 @@ setup(
     name="pymt_dbseabed",
     author="Tian Gan",
     author_email="gantian127@gmail.com",
-    description="PyMT plugin for pymt_dbseabed",
+    description="PyMT plugin for dbSEABED datasets.",
     long_description=long_description,
     version="0.1",
     url="https://github.com/gantian127/pymt_dbseabed",
