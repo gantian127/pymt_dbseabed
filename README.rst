@@ -14,14 +14,8 @@ pymt_dbseabed
         :target: https://pymt-dbseabed.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://github.com/gantian127/pymt_dbseabed/actions/workflows/test.yml/badge.svg
-        :target: https://github.com/gantian127/pymt_dbseabed/actions/workflows/test.yml
-
-.. image:: https://github.com/gantian127/pymt_dbseabed/actions/workflows/flake8.yml/badge.svg
-        :target: https://github.com/gantian127/pymt_dbseabed/actions/workflows/flake8.yml
-
-.. image:: https://github.com/gantian127/pymt_dbseabed/actions/workflows/black.yml/badge.svg
-        :target: https://github.com/gantian127/pymt_dbseabed/actions/workflows/black.yml
+.. image:: https://img.shields.io/badge/License-MIT-blue.svg
+        :target: hhttps://github.com/gantian127/pymt_dbseabed/blob/master/LICENSE
 
 
 `pymt_dbseabed <https://github.com/gantian127/pymt_dbseabed>`_ is a package that uses
