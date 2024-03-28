@@ -24,20 +24,13 @@ pymt_dbseabed
         :target: https://github.com/gantian127/pymt_dbseabed/actions/workflows/black.yml
 
 
-PyMT plugin for dbSEABED data
-
-
-* Free software: MIT License
-* Documentation: https://pymt-dbseabed.readthedocs.io.
-
-
-
-
-============ ======================================
-Component    PyMT
-============ ======================================
-DbSeabedData `from pymt.models import DbSeabedData`
-============ ======================================
+`pymt_dbseabed <https://github.com/gantian127/pymt_dbseabed>`_ is a package that uses
+the `bmi_dbseabed <https://github.com/gantian127/bmi_dbseabed>`_ pacakge to convert
+`dbSEABED <https://instaar.colorado.edu/~jenkinsc/dbseabed/>`_ datasets into a reusable,
+plug-and-play data component for PyMT modeling framework developed by Community Surface
+Dynamics Modeling System (`CSDMS <https://csdms.colorado.edu/wiki/Main_Page>`_).
+This allows dbSEABED datasets to be easily coupled with other datasets or
+models that expose a Basic Model Interface.
 
 ---------------
 Installing pymt
@@ -76,8 +69,21 @@ Installing pymt_dbseabed
 
 
 
-To install `pymt_dbseabed`,
+To install `pymt_dbseabed`, use pip
 
 .. code::
 
-  conda install pymt_dbseabed
+  pip install pymt_dbseabed
+
+or conda
+
+.. code::
+
+  conda install -c conda-forge pymt_dbseabed
+
+
+--------------
+Coding Example
+--------------
+You can learn more details about the coding example from the
+`tutorial notebook <https://github.com/gantian127/pymt_dbseabed/blob/master/notebooks/pymt_dbseabed.ipynb>`_.
