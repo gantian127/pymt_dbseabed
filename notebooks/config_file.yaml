@@ -1,0 +1,8 @@
+bmi-dbseabed:
+  var_name: carbonate
+  west: -98
+  south: 18
+  east: -80
+  north: 31
+  output: download.tif
+  local_file: false
