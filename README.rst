@@ -21,7 +21,9 @@ pymt_dbseabed
 `pymt_dbseabed <https://github.com/gantian127/pymt_dbseabed>`_ is a package that uses
 the `bmi_dbseabed <https://github.com/gantian127/bmi_dbseabed>`_ pacakge to convert
 `dbSEABED <https://instaar.colorado.edu/~jenkinsc/dbseabed/>`_ datasets into a reusable,
-plug-and-play data component for PyMT modeling framework developed by Community Surface
+plug-and-play data component for
+`PyMT<https://pymt.readthedocs.io/en/latest>`_
+modeling framework developed by Community Surface
 Dynamics Modeling System (`CSDMS <https://csdms.colorado.edu/wiki/Main_Page>`_).
 This allows dbSEABED datasets to be easily coupled with other datasets or
 models that expose a Basic Model Interface.
