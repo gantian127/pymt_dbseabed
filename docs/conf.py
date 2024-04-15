@@ -79,7 +79,7 @@ pygments_style = "sphinx"
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
 
-#The name of an image file (relative to this directory) to place at the top
+# The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
 html_logo = "_static/powered-by-logo-header.png"
 
