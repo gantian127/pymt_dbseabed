@@ -15,7 +15,7 @@ pymt_dbseabed
         :alt: Documentation Status
 
 .. image:: https://img.shields.io/badge/License-MIT-blue.svg
-        :target: hhttps://github.com/gantian127/pymt_dbseabed/blob/master/LICENSE
+        :target: https://github.com/gantian127/pymt_dbseabed/blob/master/LICENSE
 
 
 `pymt_dbseabed <https://github.com/gantian127/pymt_dbseabed>`_ is a package that uses
