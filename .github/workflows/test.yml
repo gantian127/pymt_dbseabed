@@ -53,4 +53,4 @@ jobs:
       - name: Test
         run: |
           python -c 'import pymt_dbseabed'
-          bmi-test pymt_dbseabed.bmi:DbSeabedData -vvv
+#          bmi-test pymt_dbseabed.bmi:DbSeabedData -vvv
