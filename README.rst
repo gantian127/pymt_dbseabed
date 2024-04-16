@@ -22,7 +22,7 @@ pymt_dbseabed
 the `bmi_dbseabed <https://github.com/gantian127/bmi_dbseabed>`_ pacakge to convert
 `dbSEABED <https://instaar.colorado.edu/~jenkinsc/dbseabed/>`_ datasets into a reusable,
 plug-and-play data component for
-`PyMT<https://pymt.readthedocs.io/en/latest>`_
+`PyMT <https://pymt.readthedocs.io/en/latest>`_
 modeling framework developed by Community Surface
 Dynamics Modeling System (`CSDMS <https://csdms.colorado.edu/wiki/Main_Page>`_).
 This allows dbSEABED datasets to be easily coupled with other datasets or
