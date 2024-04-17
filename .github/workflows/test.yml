@@ -50,7 +50,11 @@ jobs:
       - name: Install testing dependencies
         run: mamba install --file=requirements-testing.txt
 
-      - name: Test
+      - name: Test import
         run: |
           python -c 'import pymt_dbseabed'
-#          bmi-test pymt_dbseabed.bmi:DbSeabedData -vvv
+
+      - name: Test bmi-test
+        working-directory: ${{ github.workspace }}/notebooks
+        run: |
+          bmi-test pymt_dbseabed.bmi:DbSeabedData --config-file=config_file.yaml --root-dir=. -vvv
