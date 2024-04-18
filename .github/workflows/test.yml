@@ -55,8 +55,8 @@ jobs:
           python -c 'import pymt_dbseabed'
 
       - name: Test bmi-test
+        working-directory: ${{github.workspace}}/notebooks
         run: |
           pwd
           ls
-          cp ${{github.workspace}}/notebooks/config_file.yaml . 
-          bmi-test pymt_dbseabed.bmi:DbSeabedData --config-file=config_file.yaml --root-dir=. -vvv
+          bmi-test pymt_dbseabed.bmi:DbSeabedData --config-file=${{github.workspace}}/notebooks/config_file.yaml --root-dir=${{github.workspace}}/notebooks -vvv
