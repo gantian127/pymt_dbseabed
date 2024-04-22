@@ -1,0 +1,12 @@
+# An env for ci testing
+name: testing
+channels:
+  - conda-forge
+dependencies:
+  - python =3
+  - pip
+  - bmipy
+  - numpy
+  - bmi-tester >=0.5.5
+  - bmi_dbseabed
+  - pymt >=1.3
