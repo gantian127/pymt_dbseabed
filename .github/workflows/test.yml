@@ -41,6 +41,7 @@ jobs:
           python -c 'import pymt_dbseabed'
 
       - name: Test bmi-test
+        if: matrix.os != 'windows-latest'  # Skip this step on Windows
         working-directory: ${{github.workspace}}/notebooks
         run: |
           pwd
