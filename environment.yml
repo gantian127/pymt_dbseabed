@@ -9,4 +9,3 @@ dependencies:
   - numpy
   - bmi-tester >=0.5.5
   - bmi_dbseabed
-  - pymt >=1.3
