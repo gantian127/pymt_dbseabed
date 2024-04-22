@@ -45,4 +45,4 @@ jobs:
         run: |
           pwd
           ls
-          bmi-test pymt_dbseabed.bmi:DbSeabedData --config-file=${{github.workspace}}/notebooks/config_file.yaml --root-dir=${{github.workspace}}/notebooks -vvv
+          bmi-test pymt_dbseabed.bmi:DbSeabedData --config-file=config_file.yaml --root-dir=. -vvv
