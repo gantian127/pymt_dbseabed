@@ -1,8 +1,5 @@
 #! /usr/bin/env python
-import os
-import sys
-
-from setuptools import Extension, find_packages, setup
+from setuptools import find_packages, setup
 
 entry_points = {
     "pymt.plugins": [
@@ -27,7 +24,7 @@ setup(
     author_email="gantian127@gmail.com",
     description="PyMT plugin for dbSEABED datasets.",
     long_description=long_description,
-    version="0.1",
+    version="0.1.1",
     url="https://github.com/gantian127/pymt_dbseabed",
     classifiers=[
         "Development Status :: 4 - Beta",
