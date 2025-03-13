@@ -47,7 +47,6 @@ It is possible to list all of the versions of `pymt` available on your platform 
 Installing pymt_dbseabed
 ------------------------
 
-
 To install `pymt_dbseabed`, use pip
 
 .. code::
@@ -60,6 +59,18 @@ or conda
 
   conda install -c conda-forge pymt_dbseabed
 
+--------------
+Citation
+--------------
+Please include the following references when citing this software package:
+
+Gan, T., Tucker, G.E., Hutton, E.W.H., Piper, M.D., Overeem, I., Kettner, A.J.,
+Campforts, B., Moriarty, J.M., Undzis, B., Pierce, E., McCready, L., 2024:
+CSDMS Data Components: data–model integration tools for Earth surface processes
+modeling. Geosci. Model Dev., 17, 2165–2185. https://doi.org/10.5194/gmd-17-2165-2024
+
+Gan, T. (2025). PyMT plugin for CSDMS dbSEABED Data Component. Zenodo.
+https://doi.org/10.5281/zenodo.15022017
 
 --------------
 Coding Example
