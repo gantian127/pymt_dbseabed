@@ -61,9 +61,6 @@ It is possible to list all of the versions of `pymt` available on your platform 
 
   conda search pymt --channel conda-forge
 
-** Please make sure to install python=3.11, model_metadata=v0.7, gimli=v0.2.4, gimli.units=0.3.0. 
-Otherwise, you may encounter import error for pymt_dbseabed.
-
 ------------------------
 Installing pymt_dbseabed
 ------------------------
